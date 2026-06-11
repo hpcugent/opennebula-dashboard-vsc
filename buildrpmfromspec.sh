@@ -1,5 +1,25 @@
 #!/bin/bash
-
+##
+# Copyright 2026 Ghent University
+#
+# This file is part of opennebula-dashboard-vsc,
+# originally created by the HPC team of the University of Ghent (http://ugent.be/hpc).
+#
+#
+# https://github.com/hpcugent/opennebula-dashboard-vsc
+#
+# opennebula-dashboard-vsc is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation v3.
+#
+# opennebula-dashboard-vsc is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with opennebula-dashboard-vsc. If not, see <http://www.gnu.org/licenses/>.
+##
 if [[ -z "$1" || -d "$1" ]];then
     echo "You didn't specify anything to build";
     if [ -d "$1" ]
