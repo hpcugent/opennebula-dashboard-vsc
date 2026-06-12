@@ -3,7 +3,7 @@ This repo creates an RPM with branding for the VSC Cloud Dashboard.
 
 ## Usage
 ### Build RPM
-Run `./buildrpmfromspec.sh`. The RPM should be in `~/rpmbuild/RPMS/noarch/` by default.
+Run `./buildfromspec.sh`. The RPM should be in `~/rpmbuild/RPMS/noarch/` by default.
 
 ## Details
 ### `opennebula-dashboard-ugent.spec`
